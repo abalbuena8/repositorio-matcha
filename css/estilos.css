@@ -170,6 +170,26 @@ button {
   text-decoration: none;
 }
 
+@media (max-width: 575px) {
+  .navbar,
+  .actions {
+    display: none;
+  }
+}
+
+@media (max-width: 575px) {
+  h1 {
+    font-size: 30px;
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 575px) {
+  /** Media queries previos al banner **/
+  .banner > img {
+    width: 100%;
+  }
+}
 
 
 
