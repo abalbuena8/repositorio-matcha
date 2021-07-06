@@ -1,5 +1,5 @@
 // app.js
-const $forms = document.querySelectorAll(".signup-form");
+const $forms = document.querySelectorAll(".signup-form"); 
 
 const getTemplate = () => {
   return fetch("./template.html").then((response) => response.text());

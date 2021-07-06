@@ -51,7 +51,10 @@
         display: none;
       }
 
-      
+      .actions{
+        text-align: center;
+      }
+         
   }
   
   /** dispositivos pequeños en vista landscape (horizontal) */
